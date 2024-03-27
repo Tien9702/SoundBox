@@ -1,8 +1,13 @@
 html, body {
-  margin: 0;
+  margin: auto;
   padding: 0;
+  background-color: rgb(66, 34, 146);
+  color: white;
+  text-align: center;
+  width: 75%;
 }
 canvas {
+  margin: auto;
   display: block;
 }
 

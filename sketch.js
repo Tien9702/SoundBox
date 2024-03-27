@@ -23,7 +23,10 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(380, 480);
+  var canvas = createCanvas(380, 480);
+  
+  canvas.parent('project');
+  
   background(0);
   image(img2, 0, 0, 380, 480);
 
